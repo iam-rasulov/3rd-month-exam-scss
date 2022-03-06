@@ -1,5 +1,28 @@
 .container{
-  // width : 1240;
+  width: 100%;
+  max-width : 1280px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+
+
+@media only screen and (max-width: 426px) {
+  .container{
+    width: 100%;
+    max-width: 385px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 379px) {
+  .container{
+    width: 100%;
+    max-width: 335px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
 }

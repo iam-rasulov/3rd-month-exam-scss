@@ -1,0 +1,312 @@
+.hero-inner{
+    display: flex;
+}
+.hero-inner__left {
+    width: 731px;
+    padding: 10px;
+    padding-top: 50px;
+    border-right: 1px solid white;
+}
+.inner-left__form {
+    width: 100%;
+    max-width: 721px;
+    display: flex;
+}
+
+.form__box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form__label{
+    margin-top: 20px;
+    color: white;
+}
+
+.form__input {
+    display: block;
+    width: 393px;
+    margin-right: 20px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+}
+
+.form__input2 {
+    display: block;
+    width: 288px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.form__input3 {
+    display: block;
+    width: 333px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.form__input4{
+    display: block;
+    width: 323px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.form__input5 {
+    display: block;
+    width: 288px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.form__input6 {
+    display: block;
+    width: 373px;
+    padding: 14px 175px 14px 25px;
+    border: 1px solid white;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form__textarea{
+    width: 709px;
+    height: 168px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form__btn{
+    margin-top: 20px;
+    padding: 10px 42px 10px 15px;
+    border: none;
+    border-radius: 55px;
+    background-color: #0040DD;
+    position: relative;
+    color: #FFF;
+
+    &::after{
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-image: url(../images/Vector.svg);
+        background-repeat: no-repeat;
+    }
+}
+
+
+.inner-right{
+    padding-top: 50px;
+    padding-left: 30px;
+    color: white;
+}
+
+.label{
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 426px) {
+    *{
+        display: block;
+        padding: 0;
+    }
+
+    .hero-inner{
+        display: block;
+        border: none;
+    }
+
+    .hero-inner__left{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 0;
+        border: none;
+    }
+
+    .form__box{
+        display: block;
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    
+    .form{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .form__label{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .form__input {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input2 {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input3 {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input4{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input5 {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input6 {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+
+    .form__textarea{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .inner-right{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .inner-right__text{
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 376px) {
+    *{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+    }
+
+    .hero-inner{
+        display: flex;
+        flex-direction: column-reverse;
+        border: none;
+    }
+
+    .hero-inner__left{
+        width: 335px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .form__box{
+        display: block;
+    }
+    
+    .form{
+        width: 335px;
+        margin-top: 50px;
+    }
+
+    .form__label{
+        width: 335px;
+    }
+
+    .form__input {
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input2 {
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input3 {
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input4{
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input5 {
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+    .form__input6 {
+        width: 335px;
+        margin: 0 auto;
+        padding: 14px 25px 14px 25px;
+    }
+
+    .form__textarea{
+        width: 335px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .inner-right{
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,167 @@
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.inner__right {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0 65px 99px;
+    border-left: 1px solid white;
+}
+
+.right__list {
+    margin: 0;
+    padding: 6px 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.right__item + .right__item{
+    margin-left: 35px;
+}
+.right__item:nth-child(3){
+    margin-right: 50px;
+}
+
+.right__item__link{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.right__btn {
+ display: none;
+}
+
+.right__box {
+    padding: 6px 10px;
+    border: 1px solid white;
+    border-radius: 75px;
+    opacity: 6;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+.right__box__languages1 {
+    color: white;
+    font-size: 16px;
+    opacity: 0.6;
+    &:hover{
+        opacity: 1;
+    }
+}
+.right__box__languages2 {
+    color: white;
+    font-size: 16px;
+    opacity: 0.6;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.right__box__languages3 {
+    color: white;
+    font-size: 16px;
+    opacity: 0.6;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 426px) {
+    *{
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+    }
+
+    .inner{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+        justify-content: space-between;
+    }
+
+    .right__box{
+        margin: 0;
+        padding: 0;
+    }
+
+    .right__list{
+        display: none;
+    }
+
+    .right{
+        padding: 0;
+        border: none;
+    }
+    
+    .right__btn{
+        display: block;
+    }
+
+    .right__box{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 376px) {
+    *{
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+    }
+
+    .inner{
+        width: 380px;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+        justify-content: space-between;
+    }
+
+    .right__box{
+        margin: 0;
+        padding: 0;
+    }
+
+    .right__list{
+        display: none;
+    }
+
+    .right{
+        padding: 0;
+        border: none;
+    }
+    
+    .right__btn{
+        display: block;
+    }
+
+    .right__box{
+        display: none;
+    }
+    
+}
