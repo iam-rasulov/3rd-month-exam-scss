@@ -139,8 +139,9 @@
     }
 
     .hero-inner{
-        display: block;
-        border: none;
+        display: flex;
+        flex-direction: column-reverse;
+     
     }
 
     .hero-inner__left{

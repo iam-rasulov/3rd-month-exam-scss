@@ -761,8 +761,13 @@ img {
     padding: 0;
   }
   .hero-inner {
-    display: block;
-    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .hero-inner__left {
     width: 100%;
