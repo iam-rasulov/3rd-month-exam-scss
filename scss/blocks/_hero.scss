@@ -98,7 +98,7 @@
 
 .form__btn{
     width: 100%;
-    max-width: 373px;
+    max-width: 127px;
     margin-top: 20px;
     padding: 10px 42px 10px 15px;
     border: none;
@@ -223,8 +223,20 @@
         padding: 14px 25px 14px 25px;
     }
 
-    .form__textarea{
+    .label{
         display: none;
+    }
+
+    .form__textarea{
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .form__btn{
+        width: 100%;
+        max-width: 373px;
     }
 
     .inner-right{
