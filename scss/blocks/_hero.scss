@@ -1,3 +1,8 @@
+.d-none{
+    display: none;
+}
+
+
 .hero-inner{
     display: flex;
 }
@@ -136,6 +141,10 @@
     *{
         display: block;
         padding: 0;
+    }
+
+    .hero .d-none{
+        display: none;
     }
 
     .hero-inner{
