@@ -381,6 +381,8 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   scroll-behavior: smooth;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
 body {
@@ -739,11 +741,14 @@ img {
   width: 709px;
   height: 168px;
   margin-right: 10px;
+  padding: 20px 0 0 20px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .form__btn {
+  width: 100%;
+  max-width: 373px;
   margin-top: 20px;
   padding: 10px 42px 10px 15px;
   border: none;
@@ -853,10 +858,7 @@ img {
     padding: 14px 25px 14px 25px;
   }
   .form__textarea {
-    width: 100%;
-    max-width: 380px;
-    margin: 0 auto;
-    padding: 0;
+    display: none;
   }
   .inner-right {
     width: 100%;
