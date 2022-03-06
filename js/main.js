@@ -6,7 +6,7 @@ var elList = document.querySelector(".right__list2")
 elBtn.addEventListener("click" , function (){
     elHero.classList.toggle("d-none")
     elImg.classList.toggle("d-none")
-    elList.classList.toggle("d-d-block")
+    elList.classList.toggle("d-block")
 
 })
 

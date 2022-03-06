@@ -3,7 +3,7 @@
 }
 
 .d-block{
-    display: inline-block;
+    display: block;
 }
 
 .inner {
@@ -28,6 +28,31 @@
 }
 .right__list2{
     display: none;
+    width: 100%;
+    max-width: 343px;
+    margin-right: auto;
+    padding: 0;
+}
+.right__item2{
+    width: 100%;
+    max-width: 343px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 55px;
+    opacity: 0.6;
+    &:hover{
+        background-color: #0040DD;
+        color: white;
+    }
+}
+
+.right__item__link--2{
+    opacity: 0.6;
+    &:hover{
+        background-color: #0040DD;
+        color: white;
+    }
 }
 
 .right__item + .right__item{
@@ -120,6 +145,10 @@
 
     .right__list{
         display: none;
+    }
+
+    .d-block .right__list2{
+        display: block;
     }
 
     .right{
