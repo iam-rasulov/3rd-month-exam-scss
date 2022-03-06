@@ -135,7 +135,7 @@
     }
 
     .inner{
-        width: 380px;
+        width: 335px;
         margin: 0 auto;
         padding: 0;
         border: none;
@@ -152,6 +152,7 @@
     }
 
     .right{
+        margin: 0;
         padding: 0;
         border: none;
     }
@@ -163,5 +164,7 @@
     .right__box{
         display: none;
     }
-    
+    .inner__link{
+        margin: 0;
+    }
 }

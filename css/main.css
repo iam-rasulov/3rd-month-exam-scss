@@ -441,7 +441,6 @@ img {
 
 @media only screen and (max-width: 379px) {
   .container {
-    width: 100%;
     max-width: 335px;
     padding: 0 20px;
     margin: 0 auto;
@@ -588,7 +587,7 @@ img {
     border: 1px solid transparent;
   }
   .inner {
-    width: 380px;
+    width: 335px;
     margin: 0 auto;
     padding: 0;
     border: none;
@@ -604,6 +603,7 @@ img {
     display: none;
   }
   .right {
+    margin: 0;
     padding: 0;
     border: none;
   }
@@ -612,6 +612,9 @@ img {
   }
   .right__box {
     display: none;
+  }
+  .inner__link {
+    margin: 0;
   }
 }
 
